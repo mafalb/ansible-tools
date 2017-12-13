@@ -13,3 +13,5 @@
     - ltrace
     - yum-plugin-changelog
     - pciutils
+    - man-pages
+    - telnet
