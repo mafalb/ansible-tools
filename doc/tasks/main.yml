@@ -1,0 +1,12 @@
+---
+
+- name: install tools for reading documentation
+  package:
+    name: "{{ item }}"
+    state: present
+  with_items:
+    - pinfo
+    - lynx
+    - man-db
+    - man-pages
+    - man-pages-overrides
