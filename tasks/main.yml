@@ -2,9 +2,8 @@
 
 - name: install tools
   package:
-    name: "{{ item }}"
     state: present
-  with_items:
+    name:
     - tcpdump
     - lsof
     - bind-utils
